@@ -1,8 +1,8 @@
 package com.qf.admin.pojo.jo;
 
-public class Person {
+public class Student {
     private String name;
-    private int hah;
+    private int h;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public class Person {
         this.name = name;
     }
 
-    public int getHah() {
-        return hah;
+    public int getH() {
+        return h;
     }
 
-    public void setHah(int hah) {
-        this.hah = hah;
+    public void setH(int h) {
+        this.h = h;
     }
 }
